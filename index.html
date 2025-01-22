@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random system Picker with Spinner</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Random System Picker</h1>
+    <div class="user-input">
+      <h2>Premium systems</h2>
+      <textarea id="premium-systems" placeholder="Enter premium systems (comma-separated)"></textarea>
+    </div>
+    <div class="user-input">
+      <h2>Normal systems</h2>
+      <textarea id="normal-systems" placeholder="Enter normal systems (comma-separated)"></textarea>
+    </div>
+    <button id="pick-systems">Pick Random systems</button>
+    <div class="spinner-container">
+      <div class="spinner" id="premium-spinner"></div>
+      <div class="spinner" id="normal-spinner"></div>
+    </div>
+    <div class="output">
+      <h2>Randomly Selected systems</h2>
+      <p><strong>Premium systems:</strong> <span id="selected-premium"></span></p>
+      <p><strong>Normal systems:</strong> <span id="selected-normal"></span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
